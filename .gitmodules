@@ -1,0 +1,3 @@
+[submodule "jsmpeg"]
+	path = jsmpeg
+	url = https://github.com/phoboslab/jsmpeg.git

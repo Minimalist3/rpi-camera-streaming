@@ -1,0 +1,25 @@
+{
+  "name": "rpi-camera-streaming",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Low-latency Raspberry Pi Camera streaming",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "serve": "node index.js"
+  },
+  "author": {
+    "name": "Minimalist",
+    "email": "contact@granblue.party",
+    "url": "https://www.granblue.party"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
