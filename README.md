@@ -10,3 +10,20 @@ NodeJS --> FFMPEG --> Pipe --> WebSocket (8082)
        |
        \-> Express --> JSMPEG (8080)
 ```
+
+## Usage
+To fetch all dependencies, run these commands once
+```
+git submodule init
+git submodule update
+npm install
+```
+
+To run the streaming server
+```
+npm run serve
+```
+
+## Dependencies
+- FFMPEG
+- A working camera
